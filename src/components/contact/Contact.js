@@ -21,6 +21,7 @@ const Contact = () => {
       <div className="center">
         <TextField 
           label="Phone"
+          type="tel"
         />
         <Input
           type="email"
