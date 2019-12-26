@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import TextField from '@material-ui/core/TextField';
+import Input from '@material-ui/core/Input';
 
 const Contact = () => {
   return (
@@ -14,6 +15,12 @@ const Contact = () => {
         <TextField 
           label="Address"
         />
+      </div>
+      <div>
+        <Input 
+          type="tel"
+        />
+
       </div>
     </section>
   );
