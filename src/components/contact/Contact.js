@@ -1,9 +1,6 @@
 import React from 'react';
 import './Contact.scss';
 import TextField from '@material-ui/core/TextField';
-import Input from '@material-ui/core/Input';
-import FormLabel from '@material-ui/core/FormLabel';
-
 
 const Contact = () => {
   return (
@@ -20,12 +17,12 @@ const Contact = () => {
       </div>
       <div className="center">
         <TextField 
-          label="Phonetets"
+          label="Phone"
           type="tel"
         />
-        <Input
-          type="email"
+        <TextField 
           label="Email"
+          type="email"
         />
       </div>
     </section>
