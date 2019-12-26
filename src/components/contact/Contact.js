@@ -20,7 +20,7 @@ const Contact = () => {
       </div>
       <div className="center">
         <TextField 
-          label="Phone"
+          label="Phonetets"
           type="tel"
         />
         <Input
