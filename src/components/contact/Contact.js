@@ -6,25 +6,29 @@ const Contact = () => {
   return (
     <section className="Contact">
       <h3>Contact</h3>
-      <div className="center">
         <TextField 
           autoFocus
           label="Name"
+          fullWidth={true}
+          className="label"
         />
         <TextField 
           label="Address"
+          fullWidth={true}
+          className="label"
         />
-      </div>
-      <div className="center">
         <TextField 
           label="Phone"
           type="tel"
+          fullWidth={true}
+          className="label"
         />
         <TextField 
           label="Email"
           type="email"
+          fullWidth={true}
+          className="label"
         />
-      </div>
     </section>
   );
 };
