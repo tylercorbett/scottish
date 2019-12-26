@@ -1,3 +1,17 @@
 .Contact {
-  
+  padding: .5rem;
+
+  h3 {
+    font-weight: 300;
+    font-size: .9rem;
+    margin: .5rem 0;
+    text-align: start;
+    color: gray;
+    padding-left: 1rem;
+  }
+
+  .name-address {
+    display: flex;
+    justify-content: space-around;
+  }
 }
